@@ -1,9 +1,10 @@
   var age = Number;
  var _name =String;
  var gender=String;
-  age = prompt('enter your age','');
+  
   _name = prompt(' enter your name','');
  gender = prompt('what is your gender','');
+age = prompt('enter your age','');
 while(isNaN(age)){
     age = prompt('enter your age as number','');
 }
